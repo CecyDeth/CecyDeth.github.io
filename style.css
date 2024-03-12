@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+header img {
+    width: 150px;
+    height: 120px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin: 25px;
+}
+
+nav {
+    background-color: black;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+header h1 {
+    font-size: 50px;
+    color: rgb(225, 5, 5);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 65px;
+    color: black;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+h3 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(160, 98, 219);
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(143, 65, 143)
+}
+
+.presentacion h1 {
+    font-size: 65px;
+    color: rgb(225, 20, 20);
+    margin: 1%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentacion p {
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    margin: 3%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+.menu img {
+    border-radius: 10%;
+}
+
+.facebook img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+
+}
+
+.facebook ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook ul li {
+    margin: 25px;
+}
+
+.facebook nav {
+    background-color: rgb(166, 118, 212);
+
+}
+
+.facebook nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook nav ul li {
+    margin-right: 20px;
+}
+
+.facebook ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.facebook h3 {
+    font-size: 65px;
+    color: rgb(1, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.facebook h1 {
+    font-size: 45px;
+    color: rgb(215, 16, 16);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 109, 235);
+}
+
+
+.facebook p {
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 109, 235);
+    font-family: cursive;
+}
+
+.d-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36.5%;
+    width: 350px;
+    height: 350px;
+}
+
+.contenedor{
+    background-color: blueviolet;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+    margin: 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 109, 235);
+    font-family: cursive; 
+}
+
+h4{
+    font-size: 45px;
+    color: rgb(215, 16, 16);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 109, 235); 
+}
+
+.morado h1{
+    font-size: 45px;
+    color: rgb(215, 16, 16);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.imagenes h2{
+    font-size: 45px;
+    color: rgb(215, 16, 16);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.imagenes img{
+   width: 50%;
+   margin-left: 30%;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+     align-items: center;
+    background-color: blueviolet;
+}
+
+.sabores img{
+    margin-left: 30%;
+     width: 500px;
+     height: 400px;
+     padding: 10px;
+     display: flex;
+     flex-direction:row;
+     justify-content:center;
+     align-items:center;
+     background-color: blueviolet;
+ }
+
+ .sabores ul li{
+    font-size: 20px;
+    color: rgb(29, 6, 51);
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#video{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(152, 75, 224);
+    justify-content: center;
+}
+
+#video iframe {
+    padding: 15px;
+    margin: 15px;
+}
